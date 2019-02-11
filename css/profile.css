@@ -4,7 +4,10 @@
 
 .profile .profile-header {
   height: 80vh;
-  background-color: red;
+  /* background-color: red; */
+  background-image: url('http://4designer.t7yb.net/files/20130905/Cool-Ya-delicate-pattern-background-05-vector-material-49746.jpg');
+  background-position: center center;
+  background-size: 100%;
   width: 100%;
   position: relative;
   top: -60px;
@@ -49,6 +52,7 @@
   flex-direction: column;
   align-items: center;
   margin-right: 15px;
+  cursor: pointer;
 }
 
 .profile_action .profile_action-circle {
