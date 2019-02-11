@@ -77,6 +77,7 @@
   padding: 10px 5px;
   border-radius: 5px;
   margin-left: 5px;
+  margin-right: 5px;
 }
 
 .chat_message-center {
@@ -102,7 +103,7 @@
 }
 
 .type_message-input {
-  width: 80%;
+  width: 94%;
   display: flex;
   align-items: center;
   position: relative;
