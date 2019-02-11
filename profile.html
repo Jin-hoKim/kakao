@@ -11,7 +11,7 @@
     <title>Profile</title>
   </head>
   <body>
-    <header class="top-header">
+    <header class="top-header top-header-transparent">
       <div class="header_top">
         <div class="header_column">
           <i class="fas fa-plane"></i>
@@ -45,28 +45,32 @@
     </header>
     <main class="profile">
       <header class="profile-header">
-        <img src="images/avatar.jpg" alt="">
-        <h3 class="profile-header-title">
-          JHKim
-        </h3>
-      </header>
-      <input type="text" placeholder="jhkent.kim@gmail.com">
-      <div class="profile-actions">
-        <div class="profile_action">
-          <span class="profile_action-circle">
-            <i class="fas fa-comment fa-2x"></i>
-          </span>
-          <span class="profile_action-title">
-            My Chatroom
-          </span>
+        <div class="profile-header-container">
+          <img src="images/avatar.jpg" alt="">
+          <h3 class="profile-header-title">
+            JHKim
+          </h3>
         </div>
-        <div class="profile_action">
-          <span class="profile_action-circle">
-            <i class="fas fa-pencil-alt fa-2x"></i>
-          </span>
-          <span class="profile_action-title">
-            Edit Profile
-          </span>
+      </header>
+      <div class="profile-container">
+        <input type="text" placeholder="jhkent.kim@gmail.com">
+        <div class="profile-actions">
+          <div class="profile_action">
+            <span class="profile_action-circle">
+              <i class="fas fa-comment fa-lg"></i>
+            </span>
+            <span class="profile_action-title">
+              My Chatroom
+            </span>
+          </div>
+          <div class="profile_action">
+            <span class="profile_action-circle">
+              <i class="fas fa-pencil-alt fa-lg"></i>
+            </span>
+            <span class="profile_action-title">
+              Edit Profile
+            </span>
+          </div>
         </div>
       </div>
     </main>
