@@ -100,10 +100,11 @@
 
 .type_message .fa-plus {
   color: #b4b4b4;
+  margin-right: 10px;
 }
 
 .type_message-input {
-  width: 94%;
+  width: 100%;
   display: flex;
   align-items: center;
   position: relative;
