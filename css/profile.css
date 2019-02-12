@@ -7,7 +7,7 @@
   /* background-color: red; */
   background-image: url('http://4designer.t7yb.net/files/20130905/Cool-Ya-delicate-pattern-background-05-vector-material-49746.jpg');
   background-position: center center;
-  background-size: 100%;
+  background-size: cover;
   width: 100%;
   position: relative;
   top: -60px;
